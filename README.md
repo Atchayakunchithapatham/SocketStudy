@@ -61,7 +61,7 @@ Socket programming finds applications in various domains, including web developm
 
 
 CLIENT:
-
+```
 import socket
 from datetime import datetime
  
@@ -83,6 +83,7 @@ if ack:
     print(ack)
  
 c.close()
+```
 
 
 SERVER:
